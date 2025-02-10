@@ -2,8 +2,8 @@
 
 int main(){
     char r,x[50];
-    scanf("%s %s",&r,&x);
+    scanf("%c %c",&r,&x);
     
-    printf("You entered: %s and %s",r,x);
+    printf("You entered: %c",r,x);
     return 0;
 }
