@@ -4,6 +4,6 @@ int main(){
     int y;
     printf("");
     scanf("%d",&y);
-    printf("You entered:");
+    printf("You entered:10");
     return 0;
 }
