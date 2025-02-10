@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    int a;
+    int A;
     
-    scanf("%d",&a);
-    printf("Hexadecimal: %x",a);
-    printf("Octal: %o",a);
+    scanf("%d",&A);
+    printf("Hexadecimal: %x",A);
+    printf("Octal: %o",A);
     return 0;
 }
