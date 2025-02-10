@@ -4,6 +4,6 @@ int main(){
     int y;
     printf("");
     scanf("%d",&y);
-    printf("entered integer is: ");
+    printf("print the entered integer: ",y);
     return 0;
 }
