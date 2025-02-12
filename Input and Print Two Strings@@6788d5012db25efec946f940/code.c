@@ -4,6 +4,6 @@ int main(){
     char r,x[100];
     scanf("%s %s",r,x);
     
-    printf("You entered: Hello and World");
+    printf("You entered: %s",r,x);
     return 0;
 } 
