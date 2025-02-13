@@ -5,9 +5,9 @@ int main() {
     scanf("%d %d", &a, &b);
 
     if (a % b == 0) {
-        printf("Yes\n", num1, num2);
+        printf("Yes\n", a,b);
     } else {
-        printf("No\n", num1, num2);
+        printf("No\n", a,b);
     }
 
     return 0;
