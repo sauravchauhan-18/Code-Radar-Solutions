@@ -2,9 +2,9 @@
 
 int main(){
     int a;
-    a = 5;
     int b;
-    b = 3;
+    scanf("%d",&a);
+    scanf("%d",&b);
     
     if(a>b){
         printf("True");
