@@ -8,9 +8,9 @@ int main(){
         printf("Equal\n");
     }
     else if(a>b){
-        printf("First\n");
+        printf("First\n",a);
     }
     else if(a<b){
-        printf("Second\n");
+        printf("Second\n",b);
     }
 }
