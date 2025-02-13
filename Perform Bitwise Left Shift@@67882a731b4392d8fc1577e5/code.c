@@ -2,11 +2,12 @@
 
 int main(){
     int a;
+    int shift;
    
     scanf("%d",&a);
-    
+    scanf("%d",&shift);
     int c;
-    c = a << 1;
+    c = a << shift;
     printf("%d",c);
     return 0;
 }
