@@ -5,10 +5,10 @@ int main(){
     scanf("%d %d %d",&a,&b,&c);
 
     if((a+b+c)>180){
-        printf("Valid");
+        printf("Valid\n");
         }
         else{
-            printf("Invalid");
+            printf("Invalid\n");
         }
         return 0;
 }
