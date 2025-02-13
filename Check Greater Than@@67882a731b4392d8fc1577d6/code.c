@@ -5,6 +5,6 @@ int main(){
     a = 5;
     int b;
     b = 3;
-    printf("%d\n",a>b);
+    printf("True",a>b);
     return 0;
 }
