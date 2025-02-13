@@ -7,7 +7,7 @@ int main(){
     scanf("%d",&a);
     
     int c;
-    c = ~a
+    c = ~a;
     printf("%d",c);
     return 0;
 }
