@@ -13,7 +13,7 @@ int main(){
         printf("False");
     }
     else if(a!=b){
-        printf("False");
+        printf("True");
     }
     else if(a<b){
         printf("False");
