@@ -3,10 +3,13 @@
 int main() {
     int num;
     scanf("%d", &num);
-    if (num & 1)
-        printf(" Not Set\n");
-    else
+    
+    int msb = 1 << 31;
+    
+    if (num & msb)
         printf("Set\n");
+    else
+        printf("Not Set\n");
 
     return 0;
 }
