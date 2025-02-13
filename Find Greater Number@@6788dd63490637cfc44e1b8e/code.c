@@ -7,9 +7,9 @@ int main(){
     scanf("%d",&b);
 
     if(a>b){
-        printf("%d");
+        printf("%d\n");
     }
     else{
-        printf("%d");
+        printf("%d\n");
     }
 }
