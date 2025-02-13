@@ -5,18 +5,18 @@ int main(){
     scanf("%d",&marks);
 
     if(marks>=90){
-        printf("A");
+        printf("A\n");
     }
      if(marks>=80 && marks<90){
-        printf("B");
+        printf("B\n");
     }
      if(marks>=70 && marks<80){
-        printf("C");
+        printf("C\n");
     }
      if(marks>=60 && marks<70){
-        printf("D");
+        printf("D\n");
     }
     else{
-        printf("F");
+        printf("F\n");
     }
 }
