@@ -16,7 +16,7 @@ int main(){
         printf("False");
     }
     else if(a<b){
-        printf("False");
+        printf("True");
     }
     return 0;
 }
