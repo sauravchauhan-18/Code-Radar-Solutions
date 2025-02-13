@@ -7,8 +7,8 @@ int main(){
     if((a+b+c)<=180){
         printf("Valid\n");
     }
-        else{
-            printf("Invalid\n");
+    else{
+        printf("Invalid\n");
         }
         return 0;
 }
