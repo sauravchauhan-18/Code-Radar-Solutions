@@ -23,7 +23,7 @@ int main() {
     scanf("%d %d %d", &a, &b, &c);
 
     // Checking the Triangle Inequality Theorem
-    if (a > 0 && b > 0 && c > 0 && (a + b > c) && (a + c > b) && (b + c > a)) {
+    if ((a + b > c) && (b + c > a) && (c + a > b)) {
         printf("Valid\n");
     } else {
         printf("Invalid\n");
