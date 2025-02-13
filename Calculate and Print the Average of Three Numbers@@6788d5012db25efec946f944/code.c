@@ -10,6 +10,6 @@ int main(){
     int d;
     d = (a+b+c)3;
 
-    printf("Average: %d\n",d );
+    printf("Average: %.2f\n",d );
     return 0;
 }
