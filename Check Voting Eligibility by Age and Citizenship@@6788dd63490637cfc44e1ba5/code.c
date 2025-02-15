@@ -15,5 +15,5 @@ else if(age>=18 && citizen_status==0){
 }
 else if(age<18 && citizen_status==0){
     printf("Not Eligible");
-return 0;
+}return 0;
 }
