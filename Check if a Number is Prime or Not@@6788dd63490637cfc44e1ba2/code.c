@@ -8,6 +8,6 @@ int main(){
         printf("Prime\n",a);
     }
     else{
-        ("Not Prime\n");
+        printf("Not Prime\n");
     }
 }
