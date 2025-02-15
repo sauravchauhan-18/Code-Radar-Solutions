@@ -11,7 +11,7 @@ else if(age<18 && citizen_status==1){
     printf("Not Eligible");
 }
 else if(age>=18 && citizen_status==0){
-    printf(" Not Eligible");
+    printf("Not Eligible");
 }
 else if(age<18 && citizen_status==0){
     printf("Not Eligible");
