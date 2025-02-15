@@ -2,9 +2,10 @@
 
 
 int main() {
-    int n=5;
+    int i,n;
+    scanf("%d",&n)
     
-    for(int i=1;i<=n;i++){
+    for(i=1;i<=n;i++){
     }
     printf("%d\n",i);
    
