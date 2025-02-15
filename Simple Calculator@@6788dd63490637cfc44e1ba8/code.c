@@ -1,11 +1,17 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    int a,b;
-    char operator;
-    scanf("%d %d %c", &a, &b, &operator);
+int main() {
+    char op; int a, b;
+    
+    scanf(" %c", &op);
+   
+    scanf("%d %d", &a, &b);
 
-    printf("%d",a,b,operator,a+b);
+    if (op == '+') printf("Result: %d\n", a + b);
+    else if (op == '-') printf("Result: %d\n", a - b);
+    else if (op == '*') printf("Result: %d\n", a * b);
+    else if (op == '/' && b != 0) printf("Result: %d\n", a / b);
+    else printf("Invalid input!\n");
 
-return 0;
+    return 0;
 }
