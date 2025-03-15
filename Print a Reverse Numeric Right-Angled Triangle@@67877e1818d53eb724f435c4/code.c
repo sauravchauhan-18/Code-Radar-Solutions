@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &N);
 
     for(int i = N; i >= 1; i--) {  // Loop for rows
-        for(int j = 1; j <= i; j--) {  // Print numbers from i down to 1
+        for(int j = 1; j <= i; j++) {  // Print numbers from i down to 1
             printf("%d ", j);
         }
         printf("\n");  // Corrected newline character
