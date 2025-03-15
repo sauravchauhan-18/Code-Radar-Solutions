@@ -10,6 +10,6 @@ int fibonacci(int n) {
 
 int main() {
     int n = 5;
-    printf("Fibonacci number at position %d is %d", n, fibonacci(n));
+    printf("%d", fibonacci(n));
     return 0;
 }
