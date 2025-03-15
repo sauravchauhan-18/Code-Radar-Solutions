@@ -1,15 +1,20 @@
-// Fibonacci using recursion
-
 #include <stdio.h>
 
-int fibonacci(int N) {
-    if (N == 0) return 0;
-    if (N == 1) return 1;
-    return fibonacci(N - 1) + fibonacci(N - 2);
+void fibonacci_series(int N) {
+    int a = 0, b = 1, c;
+    
+    for (int i = 0; i < N; i++) {
+        printf("%d ", a);
+        c = a + b;
+        a = b;
+        b = c;
+    }
+    printf("\n");
 }
 
 int main() {
-    int N = 5;
-    printf("%d", fibonacci(N));
+    int N;
+    scanf("%d", &N);
+    fibonacci_series(N);
     return 0;
 }
