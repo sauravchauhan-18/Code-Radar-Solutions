@@ -9,7 +9,7 @@ int fibonacci(int N) {
 }
 
 int main() {
-    int n = 5;
+    int N = 5;
     printf("%d", fibonacci(N));
     return 0;
 }
