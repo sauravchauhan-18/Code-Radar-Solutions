@@ -9,5 +9,6 @@ int fibonacci(int N){
 int main(){
     int N;
     scanf("%d",&N);
-    printf("fibonacci(N)",N); 
+   printf("%d\n", fibonacci(N));
+
 }
