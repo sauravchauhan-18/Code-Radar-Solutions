@@ -5,7 +5,7 @@ int main() {
     char operator;
 
     // Input two numbers and the operator
-    printf("Enter two numbers followed by an operator (+, -, *, /): ");
+   
     scanf("%f %f %c", &num1, &num2, &operator);
 
     // Perform calculation based on the operator
@@ -25,7 +25,7 @@ int main() {
         case '/':
             if (num2 != 0) {
                 result = num1 / num2;
-                printf("Result: %.2f\n", result);
+                printf("%d\n", result);
             } else {
                 printf("Error: Division by zero is not allowed.\n");
             }
