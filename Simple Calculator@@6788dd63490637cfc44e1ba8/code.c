@@ -5,7 +5,7 @@ int main() {
     char operator;
 
     // Input two numbers and the operator
-    printf("Enter two numbers followed by an operator (+, -, *, /): ");
+    
     scanf("%f %f %c", &num1, &num2, &operator);
 
     // Perform the calculation based on the operator
