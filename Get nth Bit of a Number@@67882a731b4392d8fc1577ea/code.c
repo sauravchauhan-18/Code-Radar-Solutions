@@ -1,8 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int num, n;
-    scanf("%d %d", &num, &n);
-    printf("%d\n", n, (num >> n) & 1);
+    unsigned int number, position;
+
+    // Input the number and the bit position
+   
+    scanf("%u", &number);
+   
+    scanf("%u", &position);
+
+    // Retrieve the nth bit
+    unsigned int nth_bit = (number >> position) & 1;
+
+    // Output the result
+    printf("%u\n", nth_bit);
+
     return 0;
 }
