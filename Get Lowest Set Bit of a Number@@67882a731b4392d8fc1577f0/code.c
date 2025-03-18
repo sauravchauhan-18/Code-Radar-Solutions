@@ -16,4 +16,8 @@ int getLowestSetBit(int num) {
 }
 
 int main() {
-    int nu
+    int num;
+    scanf("%d", &num);
+    printf("%d\n", getLowestSetBit(num));
+    return 0;
+}
