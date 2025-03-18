@@ -15,7 +15,7 @@ int main() {
                 printf(" ");
             }
         }
-        printf("\n");
+        printf("\n");  // New line after each row
     }
 
     return 0;
