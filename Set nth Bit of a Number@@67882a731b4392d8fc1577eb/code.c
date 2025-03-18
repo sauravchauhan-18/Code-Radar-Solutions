@@ -13,7 +13,7 @@ int main() {
     unsigned int updated_number = number | (1 << position);
 
     // Output the updated number
-    printf("%u: %u\n", position, updated_number);
+    printf("%u\n", updated_number);
 
     return 0;
 }
