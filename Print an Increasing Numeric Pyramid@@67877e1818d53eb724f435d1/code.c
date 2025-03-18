@@ -10,12 +10,14 @@ int main() {
     for (int i = 1; i <= n; i++) {
         // Print numbers from 1 to i
         for (int j = 1; j <= i; j++) {
-            printf("%d ", j);
+            printf("%d", j);
             if (j != i) {  // Avoid trailing space at the end of the row
-               
+                printf(" ");
             }
         }
-        printf("\n");  // New line after each row
+        if (i != n) {  // Avoid extra newline at the end
+            printf("\n");
+        }
     }
 
     return 0;
