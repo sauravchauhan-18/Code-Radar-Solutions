@@ -5,33 +5,33 @@ int main() {
     char operator;
 
     // Input two numbers and the operator
-    
+    printf("Enter two numbers followed by an operator (+, -, *, /): ");
     scanf("%f %f %c", &num1, &num2, &operator);
 
-    // Perform the calculation based on the operator
+    // Perform calculation based on the operator
     switch (operator) {
         case '+':
             result = num1 + num2;
-            printf("3");
+            printf("Result: %.2f\n", result);
             break;
         case '-':
             result = num1 - num2;
-            printf("%d\n", result);
+            printf("Result: %.2f\n", result);
             break;
         case '*':
             result = num1 * num2;
-            printf("%d\n", result);
+            printf("Result: %.2f\n", result);
             break;
         case '/':
             if (num2 != 0) {
                 result = num1 / num2;
-                printf("%d\n", result);
+                printf("Result: %.2f\n", result);
             } else {
-                printf("error\n");
+                printf("Error: Division by zero is not allowed.\n");
             }
             break;
         default:
-            printf("error\n");
+            printf("Error: Invalid operator.\n");
     }
 
     return 0;
