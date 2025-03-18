@@ -13,7 +13,7 @@ int main() {
     a = a ^ b; // Step 3: a now holds the original value of b
 
     // Output the swapped values
-    printf(" %d, %d\n", a, b);
+    printf(" %d %d\n", a, b);
 
     return 0;
 }
