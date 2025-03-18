@@ -15,7 +15,7 @@ int main() {
                 printf(" ");
             }
         }
-        printf("\n");  // Move to the next row
+        // printf("\n");  // Move to the next row
     }
 
     return 0;
