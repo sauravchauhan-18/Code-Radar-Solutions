@@ -11,19 +11,19 @@ int main() {
     int n;
 
     // Take the number of students as input
-    printf("Enter the number of students: ");
+    
     scanf("%d", &n);
 
     struct Student students[n]; // Array of structures
 
     // Input student details
     for (int i = 0; i < n; i++) {
-        printf("Enter roll number, name, and marks for student %d:\n", i + 1);
+      
         scanf("%d %s %f", &students[i].rollNumber, students[i].name, &students[i].marks);
     }
 
     // Display student details
-    printf("\nStudent Records:\n");
+
     for (int i = 0; i < n; i++) {
         printf("Roll Number: %d, Name: %s, Marks: %.2f\n", students[i].rollNumber, students[i].name, students[i].marks);
     }
