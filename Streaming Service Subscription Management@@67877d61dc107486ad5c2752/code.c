@@ -32,9 +32,9 @@ int main() {
     }
     
     // Output the results
-    printf("Basic: %d Users, Revenue: %.1f; ", basicCount, basicRevenue);
-    printf("Standard: %d Users, Revenue: %.1f; ", standardCount, standardRevenue);
-    printf("Premium: %d Users, Revenue: %.1f; ", premiumCount, premiumRevenue);
+    printf("Basic: %d Users, Revenue: %.2f; ", basicCount, basicRevenue);
+    printf("Standard: %d Users, Revenue: %.2f; ", standardCount, standardRevenue);
+    printf("Premium: %d Users, Revenue: %.2f; ", premiumCount, premiumRevenue);
     
     return 0;
 }
