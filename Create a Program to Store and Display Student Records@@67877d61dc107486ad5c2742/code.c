@@ -11,22 +11,17 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    struct Student students[n], topScorer;
-    
-    // Input first student and assume as top scorer initially
-    scanf("%d %s %f", &students[0].rollNumber, students[0].name, &students[0].marks);
-    topScorer = students[0];
+    struct Student students[n];
 
-    // Input remaining students and find the top scorer
-    for (int i = 1; i < n; i++) {
+    // Input student details
+    for (int i = 0; i < n; i++) {
         scanf("%d %s %f", &students[i].rollNumber, students[i].name, &students[i].marks);
-        if (students[i].marks > topScorer.marks) {
-            topScorer = students[i];
-        }
     }
 
-    // Display the top scorer details
-    printf("Roll Number: %d, Name: %s, Marks: %.2f\n", topScorer.rollNumber, topScorer.name, topScorer.marks);
+    // Display student details
+    for (int i = 0; i < n; i++) {
+        printf("Roll Number: %d, Name: %s, Marks: %.2f\n", students[i].rollNumber, students[i].name, students[i].marks);
+    }
 
     return 0;
 }
