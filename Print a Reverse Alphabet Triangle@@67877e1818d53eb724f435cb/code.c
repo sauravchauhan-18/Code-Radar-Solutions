@@ -8,7 +8,7 @@ int main() {
     for (int i = 1; i <= n; i++) {
         // Print characters in reverse order from i to A
         for (char ch = 'A' + i - 1; ch >= 'A'; ch--) {
-            printf("%c\n", ch);
+            printf("%c   ", ch);
             
             // Print space except for the last character in the row
             if (ch != 'A') {
