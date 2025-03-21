@@ -12,7 +12,7 @@ int main() {
             
             // Print space except for the last character in the row
             if (ch != 'A') {
-                printf(" ");
+                printf("\n ");
             }
         }
         // printf("\n");  // Move to the next row
