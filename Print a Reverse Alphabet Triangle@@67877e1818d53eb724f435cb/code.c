@@ -1,22 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
+    int N;
+    scanf("%d", &N); // Read the number of rows
 
-    // Loop through rows
-    for (int i = 1; i <= n; i++) {
-        // Print characters in reverse order from i to A
-        for (char ch = 'A' + i - 1; ch >= 'A'; ch--) {
-            printf("%c ", ch);
-            
-            // Print space except for the last character in the row
-            if (ch != 'A') {
-                printf("\n");
-            }
+    // Loop from row = N down to row = 1
+    for (int i = N; i >= 1; i--) {
+        // Print characters from 'A' + (i - 1) down to 'A'
+        for (int j = 0; j < i; j++) {
+            // 'A' + (i - 1 - j) calculates the character in reverse
+            printf("%c", 'A' + (i - 1 - j));
         }
-        // printf("\n");  // Move to the next row
+        printf("\n"); // Move to the next line
     }
 
     return 0;
 }
+
