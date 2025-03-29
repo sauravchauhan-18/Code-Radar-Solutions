@@ -7,3 +7,9 @@ void bubbleSort(int *a, int n) {
                 a[j + 1] = t;
             }
 }
+
+void printArray(int *a, int n) {
+    for (int i = 0; i < n; i++)
+        printf("%d ", a[i]);
+}
+
